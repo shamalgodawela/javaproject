@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table td,.table th{
+  padding:12px 15px;
+  border:1px solid rgb(0, 0, 0);
+  text-align: center;
+  font-size:16px;
+
+}
+
+.table th{
+	background-color: rgb(0, 0, 0);
+	color:#ffffff;
+}
+
+.table tbody tr:nth-child(even){
+	background-color: #ffffffb4;
+}
+
+.hide { -webkit-text-security: disc; }
+
+
+
+.table td{
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.742);
+}
+#h1-p{
+  font-size: 30px;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+.hr{
+  background-color: rgb(0, 0, 0);
+} 
